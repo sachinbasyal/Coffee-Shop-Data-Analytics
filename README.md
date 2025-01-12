@@ -55,6 +55,15 @@
 - Utilize a heat map to visualize sales patterns by days and Hours
 - Implement tooltips to display detailed metrics (Sales, Order, Quantity) when hovering over a specific day-hour
 
+## Steps Followed
+- Requirement Gathering
+- Data Collection & Cleaning
+- Transformation & Modeling (ETL)
+- Data Visualization Blueprint
+- Dashboard Layout & Design
+- Interactivity & Navigation
+- Sharing
+
 # Report Snapshots (Power BI DESKTOP)
 
 ![Dashboard_upload](https://github-production-user-asset-6210df.s3.amazonaws.com/170677255/402369811-095147e4-fbcd-4c42-980e-1249a573d57d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250112%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250112T161533Z&X-Amz-Expires=300&X-Amz-Signature=b9aee9c0e4ac8d0ebaf20068b81ac087b9d3baffa2497471f7c98e31a3a790d0&X-Amz-SignedHeaders=host)
