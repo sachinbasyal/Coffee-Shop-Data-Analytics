@@ -55,6 +55,9 @@
 - Utilize a heat map to visualize sales patterns by days and Hours
 - Implement tooltips to display detailed metrics (Sales, Order, Quantity) when hovering over a specific day-hour
 
+## Data Source
+- Coffee Shop -Sales Data: The primary dataset used for this analysis is the [Coffee_Shop_Sales_Data](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Dataset/Hospital%20ER.csv), containing detail information about sales transactions.
+
 ## Steps Followed
 - Requirement Gathering
 - Data Collection & Cleaning
