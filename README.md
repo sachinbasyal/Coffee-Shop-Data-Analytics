@@ -1,6 +1,6 @@
 # Coffee Shop -Sales Analytics
 
-### Dashboard Link: https://app.powerbi.com/groups/me/reports/6b77e45d-2313-471a-b97e-8585a830718c/0db20bf710e2b34b041c?experience=power-bi
+### Power Bi -Dashboard Link: https://app.powerbi.com/groups/me/reports/6b77e45d-2313-471a-b97e-8585a830718c/0db20bf710e2b34b041c?experience=power-bi
 
 ## Problem Statement
 
@@ -56,7 +56,12 @@
 - Implement tooltips to display detailed metrics (Sales, Order, Quantity) when hovering over a specific day-hour
 
 ## Data Source
-- Coffee Shop -Sales Data: The primary dataset used for this analysis is the [Coffee Shop -Sales_Data](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Dataset/Coffee%20Shop%20Sales.xlsx), containing detail information about sales transactions.
+- [Coffee Shop -Sales Data](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Dataset/Coffee%20Shop%20Sales.xlsx): The primary dataset utilized for this analysis, which primarily comprises detailed information on sales transactions.
+
+## Tools used:
+- Microsoft Excel: Used for comprehensive data cleaning and preprocessing to ensure data accuracy and consistency.
+- MySQL: Used for in-depth data analysis, including querying and managing the dataset to derive actionable insights.
+- Power BI: Leveraged for creating dynamic visualizations, interactive dashboards, and detailed reports to effectively communicate findings.
 
 ## Steps Followed
 - Requirement Gathering
