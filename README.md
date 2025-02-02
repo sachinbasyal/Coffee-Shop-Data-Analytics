@@ -74,6 +74,6 @@
 
 # Report Snapshots (Power BI DESKTOP)
 
-![Dashboard_upload](https://github-production-user-asset-6210df.s3.amazonaws.com/170677255/402369811-095147e4-fbcd-4c42-980e-1249a573d57d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250112%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250112T161533Z&X-Amz-Expires=300&X-Amz-Signature=b9aee9c0e4ac8d0ebaf20068b81ac087b9d3baffa2497471f7c98e31a3a790d0&X-Amz-SignedHeaders=host)
+![Dashboard_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/PI%20Dashboard%20%26%20Report/Dashboard%20View-1.png)
 
-![Dashboard_2_upload](https://github-production-user-asset-6210df.s3.amazonaws.com/170677255/402370200-c64ebfcf-fbd2-4d21-9854-2b226e72dd71.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250112%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250112T161817Z&X-Amz-Expires=300&X-Amz-Signature=6bf283a90982e87f16d41784b502985fa1e2e4a5081479b0a17bb4fcaed06928&X-Amz-SignedHeaders=host)
+![Dashboard_2_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/PI%20Dashboard%20%26%20Report/Dashboard%20View-2.png)
