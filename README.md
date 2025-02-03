@@ -22,7 +22,7 @@
 
 ### B. Chart Requirement:
 (1) Calendar Heat Map:
-- Implement a calendar heat map tha dynamically adjusts based on the selected month from a slicer
+- Implement a calendar heat map that dynamically adjusts based on the selected month from a slicer
 
 - Each day on the calendar will be color-coded to represent sales volume, wih darker shades indicating higher sales
 
