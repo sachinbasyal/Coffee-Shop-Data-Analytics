@@ -74,6 +74,6 @@
 
 # Report Snapshots (Power BI DESKTOP)
 
-![Dashboard_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/PI%20Dashboard%20%26%20Report/Dashboard%20View-1.png)
+![Dashboard1_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/dashboard-1.png)
 
-![Dashboard_2_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/PI%20Dashboard%20%26%20Report/Dashboard%20View-2.png)
+![Dashboard2_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/Dashboard-2.png)
