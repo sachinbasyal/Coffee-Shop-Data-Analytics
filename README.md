@@ -1,6 +1,6 @@
 # Coffee Shop -Sales Analytics
 
-### [Power Bi -Dashboard Download Link](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/CoffeeShop-Insights.pbix)
+### [Power BI -Dashboard Link](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/CoffeeShop-Insights.pbix)
 
 ## Problem Statement
 
