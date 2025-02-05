@@ -1,79 +1,105 @@
-# Coffee Shop -Sales Analytics
+# Coffee Shop Sales - Analytics Project
 
 ### [Power BI -Dashboard Link](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/CoffeeShop-Insights.pbix)
 
-## Problem Statement
+## Project Background
+The Coffee Shop Sales - Analytics Project was initiated to enhance operational efficiency and uncover actionable insights for a coffee shop. With the growing competitiveness in the food and beverage industry, data-driven decision-making is crucial for optimizing revenue streams, identifying sales trends, and improving business operations.
 
-### A. KPI's Requirement:
-(1) Total Sales Analysis:
-- Calculate the total sales for each respective month
-- Determine the month-on-month (MoM) increase or decrease in sales
-- Calculate the difference in sales between the selected month and the previous month
+This project leverages SQL for data extraction and Power BI for visualization, providing stakeholders with a comprehensive, interactive dashboard to monitor key performance indicators (KPIs) and make informed business decisions.
 
-(2) Total Order Analysis:
-- Calculate the total no. of orders for each respective month
-- Determine the month-on-month (MoM) increase or decrease in the no. of orders
-- Calculate the difference in the no. of orders between the selected month and the previous month
+- The primary dataset used for this analysis, which consists of detailed sales transaction information, can be found [here](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales?resource=download).
+- The SQL queries used to clean, organize, identify, and prepare data for the dashboard can be found [here](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/SQL%20Queries.pdf).
 
-(3) Total Quantity Sold Analysis:
-- Calculate the total quantity sold for each respective month
-- Determine the month-on-month (MoM) increase or decrease in the total quantity sold
-- Calculate the difference in the total quantity sold between the selected month and the previous month
+## 1. Executive Summary
+This project focuses on analyzing coffee shop sales performance using data-driven insights. A **Power BI Revenue Insights Dashboard** was developed to empower stakeholders with actionable insights to optimize revenue growth and operational efficiency.
 
-### B. Chart Requirement:
-(1) Calendar Heat Map:
-- Implement a calendar heat map that dynamically adjusts based on the selected month from a slicer
+## 2. Business Problem Statement
+Coffee shops generate revenue from various products across multiple store locations. However, understanding sales trends, peak sales periods, top-performing products, and customer purchase behavior is critical for business optimization. This project aims to:
 
-- Each day on the calendar will be color-coded to represent sales volume, wih darker shades indicating higher sales
+- Analyze **Total Sales, Orders, and Quantity Sold** across different time periods.
+- Identify sales trends using **MoM (Month-over-Month) comparisons**.
+- Provide insights on sales by **store locations, product categories, and customer behavior** by weekdays, weekends, and time of day.
+- Utilize visual analytics (**heat maps, line charts, and bar charts**) to support data-driven decision-making.
 
-- Implement tooltips to display detailed matrics (Sales, Orders, Quantity) when hovering over a specific day
+## 3. Data Overview
+The dataset includes key transaction-level sales data with the following key attributes:
 
-(2) Sales Analysis by Weekdays and Weekends:
-- Segment sales data into weekdays and weekends to analyze performance variations
+- **Transaction Date & Time**: Timestamp of each transaction.
+- **Store Location**: Geographic location of the store.
+- **Product Category & Details**: Classification of sold products.
+- **Quantity & Unit Price**: Number of units sold and corresponding price.
+- **Revenue Calculation**: Derived as **Quantity * Unit Price**.
 
-- Provide insights into whether sales patterns differ significantly between weekdays and weekends
+## 4. Key Performance Indicators (KPIs) Analysis
+### 4.1 Total Sales Analysis:
+- **Total Sales per Month**: Monthly revenue generated.
+- **MoM Change**: Percentage increase/decrease in sales compared to the previous month.
+- **Sales Difference**: Difference in revenue between the selected month and the prior month.
 
-(3) Sales Analysis by Store Location:
-- Visualize sales data by different sales locations
-- Include month-over-month (MoM) difference metrics based on the selected month in the slicer
-- Highlight MoM sales increase or decrease for each store location to identify trends
+### 4.2 Total Orders Analysis:
+- **Total Orders per Month**: Number of orders placed monthly.
+- **MoM Change**: Percentage increase/decrease in order volume.
+- **Order Difference**: Absolute difference in order volume from the previous month.
 
-(4) Daily Sales Analysis over Average Sales Line:
-- Display daily sales for the selected month with a line chart
-- Incorporate an average line on the char to represent the average daily sales
-- Highlight bars exceeding or falling below the average sales to identify exceptions sales days
+### 4.3 Total Quantity Sold Analysis:
+- **Total Quantity Sold per Month**: Total items sold.
+- **MoM Change**: Percentage increase/decrease in total quantity.
+- **Quantity Difference**: Difference in total quantity sold month-over-month.
 
-(5) Sales Analysis by Product Category:
-- Analyze sales performance across different product cateogoris
-- Provide insights into which product categories contribute the most of overall sales
+## 5. Steps Followed:
+1. Requirement Gathering/Business Requirements
+2. Data Walkthrough
+3. Data Connection
+4. Data Cleaning / Quality Check
+5. Data Modeling
+6. Data Processing
+7. DAX Calculations
+8. Dashboard Layouts
+9. Charts Development and Formatting
+10. Dashboard / Report Development
+11. Insights Generation
 
-(6) Top 5 Products by Sales:
-- Identify and display the top 5 products based on sales volume
-- Allow users to quickly visualize the best-performing products in terms of sales
+## 6. Data Visualization & Insights
+### 6.1 Calendar Heat Map for Daily Sales Performance:
+- Displays daily sales performance where **darker shades indicate higher sales**.
+- Interactive tooltips provide **daily revenue, order count, and quantity sold**.
 
-(7) Sales Analysis by Days and Hours using a Heat Map:
-- Utilize a heat map to visualize sales patterns by days and Hours
-- Implement tooltips to display detailed metrics (Sales, Order, Quantity) when hovering over a specific day-hour
+### 6.2 Sales Analysis by Weekdays vs. Weekends:
+- Identifies **differences in customer traffic patterns** on weekdays vs. weekends.
+- Provides insights into **when peak sales occur**.
 
-## Data Source
-- [Coffee Shop -Sales Data](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Dataset/Coffee%20Shop%20Sales.xlsx): The primary dataset utilized for this analysis, which primarily comprises detailed information on sales transactions.
+### 6.3 Sales by Store Location:
+- Displays **sales distribution across different store locations**.
+- **MoM Comparison**: Highlights which store locations are growing or declining in sales.
 
-## Tools used:
-- Microsoft Excel: Used for comprehensive data cleaning and preprocessing to ensure data accuracy and consistency.
-- MySQL: Used for in-depth data analysis, including querying and managing the dataset to derive actionable insights.
-- Power BI: Leveraged for creating dynamic visualizations, interactive dashboards, and detailed reports to effectively communicate findings.
+### 6.4 Daily Sales Trend with Average Sales Line:
+- **Bar chart with an average sales line** to track daily performance.
+- Identifies days with **exceptional sales spikes or dips**.
 
-## Steps Followed
-- Requirement Gathering
-- Data Collection & Cleaning
-- Transformation & Modeling (ETL)
-- Data Visualization Blueprint
-- Dashboard Layout & Design
-- Interactivity & Navigation
-- Sharing
+### 6.5 Sales by Product Category:
+- Breakdown of sales by **coffee, tea, hot chocolate, and other categories**.
+- Identifies **high-revenue product categories driving business success**.
+
+### 6.6 Top 5 Best-Selling Products:
+- Displays the **top 5 products based on total revenue**.
+- Helps optimize **inventory and promotional strategies**.
+
+### 6.7 Sales Heat Map by Day and Hour:
+- Identifies **peak sales hours for targeted marketing and staffing optimization**.
+- Tooltips provide **revenue, order count, and quantity sold per time block**.
 
 # Report Snapshots (Power BI DESKTOP)
-
 ![Dashboard1_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/dashboard-1.png)
-
 ![Dashboard2_upload](https://github.com/sachinbasyal/Coffee-Shop-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/Dashboard-2.png)
+
+
+## 7. Business Recommendations
+- **Optimize Product Inventory & Pricing**: Increase stock for high-demand products and adjust pricing for slow-moving items.
+- **Leverage High-Sales Time Periods**: Offer targeted promotions during peak weekday and weekend hours.
+- **Store-Specific Strategy Implementation**: Enhance marketing efforts in underperforming store locations.
+- **Drive Customer Retention & Engagement**: Implement loyalty programs and discounts to encourage repeat purchases.
+
+## 8. Conclusion
+The **Coffee Shop Revenue Insights Dashboard** provides a **comprehensive view of sales trends, peak performance periods, and key growth opportunities**. By leveraging these insights, stakeholders can make **data-driven decisions** to optimize sales, improve inventory management, and enhance the customer experience.
+
+
