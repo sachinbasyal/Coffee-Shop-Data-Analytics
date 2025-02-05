@@ -105,7 +105,6 @@ The **Coffee Shop Revenue Insights Dashboard** provides a **comprehensive view o
 ---
 ## 📌 **Contributions & Feedback**
 If you have any suggestions or want to contribute, feel free to open a **pull request**!
-
-### 📧 Contact: [sachinbasyal@gmail.com]
+#### 📧 Contact: sachinbasyal@gmail.com
 ---
 
