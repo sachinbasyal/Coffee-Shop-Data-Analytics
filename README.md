@@ -102,4 +102,10 @@ The dataset includes key transaction-level sales data with the following key att
 ## 8. Conclusion
 The **Coffee Shop Revenue Insights Dashboard** provides a **comprehensive view of sales trends, peak performance periods, and key growth opportunities**. By leveraging these insights, stakeholders can make **data-driven decisions** to optimize sales, improve inventory management, and enhance the customer experience.
 
+---
+## 📌 **Contributions & Feedback**
+If you have any suggestions or want to contribute, feel free to open a **pull request**!
+
+### 📧 Contact: [sachinbasyal@gmail.com]
+---
 
